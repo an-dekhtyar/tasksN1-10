@@ -1,0 +1,17 @@
+.successful {
+    box-shadow: 0 0 8px 0 lightgreen;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testSpanError {
+    color: blue;
+}
+
+.hw3 {
+    padding-bottom: 20px;
+}
