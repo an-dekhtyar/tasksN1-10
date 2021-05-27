@@ -23,5 +23,12 @@
     font-family: "Courier New";
     font-size: 10px;
     color: red;
+    text-align: center;
 
+}
+
+.inputContain {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
 }

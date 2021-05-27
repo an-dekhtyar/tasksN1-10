@@ -16,6 +16,7 @@
 .priority {
     width: 150px;
 
+
 }
 .buttonDelete {
     width: 70px;
@@ -23,10 +24,10 @@
 
 .buttonFelster {
     width: 70px;
-    padding-right: 20px;
+
 }
 
 .buttonFil {
-    margin-right: 30px;
+    margin-right: 25px;
     width: 70px;
 }

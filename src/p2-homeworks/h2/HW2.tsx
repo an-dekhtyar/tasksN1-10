@@ -7,16 +7,17 @@ export type AffairType = {
     _id:number
     name: string
     priority: string
-    }
+    color:string
+}
 export type FilterType = 'all' | AffairPriorityType
 
 // constants
 const defaultAffairs: Array<AffairType> = [ // need to fix any  +
-    {_id: 1, name: 'React', priority: 'high'},
-    {_id: 2, name: 'anime', priority: 'low'},
-    {_id: 3, name: 'games', priority: 'low'},
-    {_id: 4, name: 'work', priority: 'high'},
-    {_id: 5, name: 'html & css', priority: 'middle'},
+    {_id: 1, name: 'React', priority: 'high', color:"red"},
+    {_id: 2, name: 'anime', priority: 'low', color: "blue"},
+    {_id: 3, name: 'games', priority: 'low', color: "blue"},
+    {_id: 4, name: 'work', priority: 'high', color:"red"},
+    {_id: 5, name: 'html & css', priority: 'middle', color:"yellow"},
 ]
 
 // pure helper functions
