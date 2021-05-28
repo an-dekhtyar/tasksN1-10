@@ -1,36 +1,43 @@
-.headerContain a {
-    color: black;
-    text-decoration: none;
-
+.header {
+    height: 30px;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
 }
 
-.headerContain {
-    height: 70px;
-    display: flex;
-    background-color: beige;
-    align-items: center;
 
+.headerContain {
+    display: flex;
+    transition: 1s ease;
+    transform: translate(300px);
+
+}
+.headerContain:hover {
+    right: 0;
+    transform: translate(-6px);
 }
 
 .headerLink {
-    background-color:darkgrey;
-    border:2px dashed gray;
-    width: 100px;
-    height: 50px;
-    border-radius: 3px;
-    align-items:center
-
-
-
-}
-
-.headerBox {
+    padding-top: 5px;
+    color: black;
+    text-decoration: none;
+    font-family: "Courier New";
+    font-weight: bold;
+    font-size: large;
     margin-left: 20px;
 
-
-
+}
+.headerLink:hover {
+    background-color: red;
+    color: white;
 }
 
-.menu {
+.headerContain::before {
+    content: '';
     display: inline-block;
+    background: url(left-menu.svg);
+    width: 28px;
+    height: 28px;
 }

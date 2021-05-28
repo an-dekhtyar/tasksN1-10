@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { homeWorkReducer } from "./bll/homeWorkReducer";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 import s from './HW8.module.css'
+import style from '../../p1-main/m1-ui/u1-app/App.module.css'
 
 export type PeopleType = {
     _id: number
@@ -39,7 +40,7 @@ function HW8() {
     return (
         <div>
             <hr />
-            homeworks 8
+            <span className={style.hw}>#HW8</span>
 
             {/*should work (должно работать)*/}
             <div className={s.box}>

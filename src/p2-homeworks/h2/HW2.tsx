@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
+import style from '../../p1-main/m1-ui/u1-app/App.module.css'
 
 // types
 export type AffairPriorityType = 'high' | 'low' | 'middle'  // need to fix any +
@@ -41,7 +42,7 @@ function HW2() {
     return (
         <div>
             <hr/>
-            homeworks 2
+            <span className={style.hw}>#HW2</span>
 
             {/*should work (должно работать)*/}
             <Affairs
