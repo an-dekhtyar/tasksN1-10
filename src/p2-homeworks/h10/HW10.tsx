@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 import { loading } from "./bll/loadingReducer";
 import { AppStoreType } from "./bll/store";
+import style from "../../p1-main/m1-ui/u1-app/App.module.css";
 
 function HW10() {
     const dispatch = useDispatch()
@@ -19,7 +20,7 @@ function HW10() {
     return (
         <div>
             <hr/>
-            homeworks 10
+            <span className={style.hw}>#HW10</span>
 
             {/*should work (должно работать)*/}
             {loadingProcess
