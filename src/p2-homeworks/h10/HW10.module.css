@@ -1,0 +1,9 @@
+.loader {
+
+    hight:50px;
+    width:200px ;
+}
+.loader img {
+    hight:100%;
+    width:100% ;
+}

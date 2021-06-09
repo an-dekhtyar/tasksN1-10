@@ -1,0 +1,23 @@
+.slider {
+
+    display: flex;
+
+}
+.range {
+
+    display: flex;
+
+}
+.hw11block {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputWidth {
+    width: 300px;
+}
+.value {
+    display: inline-block;
+    margin: 10px;
+}
