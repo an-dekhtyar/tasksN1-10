@@ -1,3 +1,9 @@
+.hw12 span {
+    padding: 10px;
+    font-family: "Courier New";
+    font-weight: bold;
+}
+
 .dark {
     background: dimgrey;
 }
@@ -20,4 +26,18 @@
 
 .some-text {
     color: darkslateblue;
+}
+
+.yellow {
+    background-color: lightgoldenrodyellow;
+}
+.yellow-text {
+    color:saddlebrown;
+}
+
+.blue {
+    background-color: lightblue;
+}
+.blue-text {
+    color: darkblue;
 }
