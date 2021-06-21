@@ -4,17 +4,18 @@ import Error404 from './pages/Error404'
 import PreJunior from './pages/PreJunior'
 import {Junior} from './pages/Junior'
 import {JuniorPlus} from './pages/JuniorPlus'
+import style from './pages/Error404.module.css'
 
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
     JUNIOR: '/junior',
-    JUNIOR_PLUS: '/junior-plus'
-    // add paths
+    JUNIOR_PLUS: '/junior-plus',
+    PAGE_404:'/404'
 }
 
 function Routes() {
     return (
-        <div>
+        <div className={style.routes}>
             {/*Switch выбирает первый подходящий роут*/}
             <Switch>
 
@@ -27,8 +28,8 @@ function Routes() {
                 <Route path={PATH.JUNIOR_PLUS} render={() => <JuniorPlus/>}/>
 
                 {/*у этого роута нет пути, он отрисуется если пользователь захочет попасть на несуществующую страницу*/}
-                <Route render={() => <Error404/>}/>
-
+                <Route path={PATH.PAGE_404} render={() => <Error404/>}/>
+                <Redirect from={'*'} to={PATH.PAGE_404}/>
             </Switch>
         </div>
     )

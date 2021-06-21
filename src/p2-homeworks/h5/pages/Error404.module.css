@@ -1,0 +1,13 @@
+.routes {
+    width: 100%;
+    height: 90vh;
+}
+
+.pagSize {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+

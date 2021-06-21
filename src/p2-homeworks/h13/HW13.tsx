@@ -18,7 +18,7 @@ export const HW13 = () => {
     return (
         <div>
             <span className={titleStyle.hw}>#HW13</span>
-            <hr />
+
             <Request onCkickRequestSend={onClickRequestSend} response={response}/>
 
         </div>
